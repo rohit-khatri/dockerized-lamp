@@ -1,11 +1,5 @@
 #  LAMP stack built with Docker Compose
 
-  
-
-![Landing Page](https://preview.ibb.co/gOTa0y/LAMP_STACK.png)
-
-  
-
 A basic LAMP stack environment built using Docker Compose. It consists of the following:
 
 * PHP
@@ -32,9 +26,9 @@ As of now, we have several different PHP versions. Use appropriate php version a
 * Run the `docker-compose up -d`.
 
 ```shell
-git clone https://github.com/sprintcube/docker-compose-lamp.git
-cd docker-compose-lamp/
-cp sample.env .env
+git clone https://github.com/rohit-khatri/dockerized-lamp.git
+cd dockerized-lamp/
+cp example.env .env
 // modify sample.env as needed
 docker-compose up -d
 // visit localhost
@@ -49,7 +43,7 @@ This Docker Stack is build for local development and not for production usage.
 
 ### Configuration
 This package comes with default configuration options. You can modify them by creating `.env` file in your root directory.
-To make it easy, just copy the content from `sample.env` file and update the environment variable values as per your need.
+To make it easy, just copy the content from `example.env` file and update the environment variable values as per your need.
 
 ### Configuration Variables
 There are following configuration variables available and you can customize them by overwritting in your own `.env` file.
