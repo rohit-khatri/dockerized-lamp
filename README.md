@@ -17,8 +17,7 @@ As of now, we have several different PHP versions. Use appropriate php version a
 * 7.3.x
 * 7.4.x
 * 8.0.x
-
-> Please note that we simplified the project structure from several branches for each php version, to one centralized master branch. Please let us know if you encouter any problems. 
+ 
 ##  Installation
  
 * Clone this repository on your local computer
